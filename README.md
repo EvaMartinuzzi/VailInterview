@@ -11,3 +11,14 @@ array. If, for example, we would like to rotate [1,2,3,4,5,6,7] 8 positions to l
 result [2,3,4,5,6,7,1]. 
 Negative values for the positions to rotate will throw an error which the code
 example should handle gracefully.
+
+## The Setup
+
+1. Optional: download an IDE (Like VS Code) to easily edit the code
+2. Ensure you have [Node.JS](https://nodejs.org/en/download0) installed
+3. Ensure you have a CLI tool (like GitBash)
+4. Ensure you have an SSH connection on your current computer that links it to GitHub
+5. Clone this repo ```git clone git@github.com:EvaMartinuzzi/VailInterview.git```
+
+## The Solution
+I chose to use a reverse algorithm. The main solution is as follows, but I have also set this repo up to be usable through the console.
