@@ -23,4 +23,4 @@ example should handle gracefully.
 7. To run the unit tests, install Jest ```npm install --save-dev jest```, and run the tests ```npx jest rotateArray.test.js```
 
 ## The Solution
-I chose to use a reverse algorithm to shift the elements left. The solution is in the rotateArray.js file, but I have also set this repo up to be usable through the console.
+I chose to use a reverse algorithm to shift the elements left. Before performing any actions though, I check for edge cases. This includes throwing an error for negative position movement and checking if the array is empty or if positions to move is 0. The solution is in the rotateArray.js file, but I have also set this repo up to be usable through the console (see step 6 in The Setup section above).
