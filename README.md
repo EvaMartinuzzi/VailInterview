@@ -19,6 +19,8 @@ example should handle gracefully.
 3. Ensure you have a CLI tool (like GitBash)
 4. Ensure you have an SSH connection on your current computer that links it to GitHub
 5. Clone this repo ```git clone git@github.com:EvaMartinuzzi/VailInterview.git```
+6. To run the function via command line, run ```node VailInterview/rotateArray.js [array to rotate] [how many positions to rotate]```, which would look something like ```node VailInterview/rotateArray.js 1,2,3 2```
+7. To run the unit tests, install Jest ```npm install --save-dev jest```, and run the tests ```npx jest rotateArray.test.js```
 
 ## The Solution
-I chose to use a reverse algorithm. The main solution is as follows, but I have also set this repo up to be usable through the console.
+I chose to use a reverse algorithm to shift the elements left. The solution is in the rotateArray.js file, but I have also set this repo up to be usable through the console.
